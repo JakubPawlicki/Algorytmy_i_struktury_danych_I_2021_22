@@ -1,0 +1,3 @@
+"D:\Programy\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ListaWskaznikowa.dir/objects.a
+D:\Programy\MinGW\bin\ar.exe cr CMakeFiles\ListaWskaznikowa.dir/objects.a @CMakeFiles\ListaWskaznikowa.dir\objects1.rsp
+D:\Programy\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ListaWskaznikowa.dir/objects.a -Wl,--no-whole-archive -o ListaWskaznikowa.exe -Wl,--out-implib,libListaWskaznikowa.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ListaWskaznikowa.dir\linklibs.rsp

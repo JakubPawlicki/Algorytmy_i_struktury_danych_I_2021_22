@@ -1,0 +1,3 @@
+"D:\Programy\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\KolejkaCykliczna.dir/objects.a
+D:\Programy\MinGW\bin\ar.exe cr CMakeFiles\KolejkaCykliczna.dir/objects.a @CMakeFiles\KolejkaCykliczna.dir\objects1.rsp
+D:\Programy\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\KolejkaCykliczna.dir/objects.a -Wl,--no-whole-archive -o KolejkaCykliczna.exe -Wl,--out-implib,libKolejkaCykliczna.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\KolejkaCykliczna.dir\linklibs.rsp
